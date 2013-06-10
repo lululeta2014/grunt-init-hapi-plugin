@@ -12,7 +12,7 @@ exports.template = function(grunt, init, done) {
         {
             name: 'hapi_version',
             message: 'What version of hapi is this compatible with?',
-            default: '0.14.x'
+            default: '1.x.x'
         },
         {
             name: 'route_permission',
@@ -52,7 +52,7 @@ exports.template = function(grunt, init, done) {
             author: props.author_name,
             keywords: ['hapi', 'plugin'],
             main: 'index',
-            node_version: '0.8.x',
+            node_version: '0.10.x',
             peerDependencies: {
                 'hapi': props.hapi_version
             },
