@@ -19,7 +19,7 @@ describe('{%= name %}', function () {
     it('can be added as a plugin to hapi', function (done) {
 
         var server = new Hapi.Server();
-        server.pack.allow({ ext: true }).require('../', { {%= name %}: { /* Set any plugin options here */ } }, function (err) {
+        server.pack.allow({ ext: true }).require('../', { /* Set any plugin options here */ }, function (err) {
 
             expect(err).to.not.exist;
             done();
