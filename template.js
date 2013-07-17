@@ -57,7 +57,6 @@ exports.template = function(grunt, init, done) {
                 'hapi': props.hapi_version
             },
             dependencies: {
-                "hoek": "0.9.x"
             },
             devDependencies: {
                 'mocha': '1.x.x',
