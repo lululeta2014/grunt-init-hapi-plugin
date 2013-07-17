@@ -59,8 +59,7 @@ exports.template = function(grunt, init, done) {
             dependencies: {
             },
             devDependencies: {
-                'mocha': '1.x.x',
-                'chai': '1.x.x',
+                'lab': '0.1.x',
                 'hapi': props.hapi_version
             },
             npm_test: 'make test',
